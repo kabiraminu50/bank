@@ -1,0 +1,67 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.header{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+border: 1px none black;
+height: 12vh;
+background-color: rgb(19, 19, 88);
+
+}
+
+.righticons{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    font-size: 35px;
+    justify-content: center;
+    color: rgb(155, 155, 159);
+
+}
+
+.lefticons{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    font-size: 15px;
+    color: rgb(155, 155, 159);
+    justify-content: center;
+    align-items: center;
+}
+
+.kyc-lvl{
+    border: 1px none black;
+    border-radius: 4px;
+    background-color: rgb(217, 166, 105);
+    color: rgb(144, 68, 14);
+    height: 20px;
+    padding: 1px;
+}
+
+.agent-category{
+border: 1px none black;  background-color: rgb(170, 113, 225);
+padding: 1px;
+border-radius: 4px;
+height: 20px;
+ color: rgb(45, 8, 79);
+}
+.profilepic{
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.pic{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px ;
+}

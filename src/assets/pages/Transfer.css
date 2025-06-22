@@ -1,0 +1,11 @@
+h1{
+    font-size: large;
+    background-color: black;
+    font-weight: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+
